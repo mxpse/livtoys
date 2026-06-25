@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advice for Anything - Free Life Coaching AI</title>
+  <meta name="description" content="Get free personalized advice on anything - relationships, career, finance, health. Our AI life coach has answers to all your problems!">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Landing bait screen -->
+  <div id="landing">
+    <div class="landing-content">
+      <h1>Advice for Anything</h1>
+      <p class="tagline">Free AI-Powered Life Coaching for Every Problem</p>
+      <div class="fake-testimonials">
+        <p>"Changed my life in 3 minutes!" - Sarah K.</p>
+        <p>"Better than therapy!" - Mike T.</p>
+        <p>"I can't believe this is free" - Anonymous</p>
+      </div>
+      <div class="input-area">
+        <input type="text" id="question-input" placeholder="Ask me anything about your life..." autocomplete="off">
+        <button id="ask-btn">Get Free Advice</button>
+      </div>
+      <p class="fine-print">Trusted by 2,847,391 users worldwide</p>
+    </div>
+  </div>
+
+  <!-- The troll screen -->
+  <div id="troll-screen" class="hidden">
+    <div id="troll-content">
+      <div id="message-box">
+        <p id="troll-message"></p>
+      </div>
+      <button id="fake-close" class="fake-btn">Close</button>
+      <button id="fake-close-2" class="fake-btn hidden">OK I get it, let me leave</button>
+      <button id="fake-close-3" class="fake-btn hidden">PLEASE let me go</button>
+    </div>
+    <div id="floating-messages"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
